@@ -72,20 +72,21 @@ function Main() {
     }
 
     manifest = [
-        { src: "bg.png", id: "bg" },
-        { src: "main.png", id: "main" },
-        { src: "startB.png", id: "startB" },
-        { src: "creditsB.png", id: "creditsB" },
-        { src: "credits.png", id: "credits" },
-        { src: "paddle.png", id: "cpu" },
-        { src: "paddle.png", id: "player" },
-        { src: "ball.png", id: "ball" },
-        { src: "win.png", id: "win" },
-        { src: "lose.png", id: "lose" },
-        { src: "playerScore.mp3|playerScore.ogg", id: "playerScore" },
-        { src: "enemyScore.mp3|enemyScore.ogg", id: "enemyScore" },
-        { src: "hit.mp3|hit.ogg", id: "hit" },
-        { src: "wall.mp3|wall.ogg", id: "wall" }
+        { src: "images/bg.png", id: "bg" },
+        { src: "images/main.png", id: "main" },
+        { src: "images/startB.png", id: "startB" },
+        { src: "images/creditsB.png", id: "creditsB" },
+        { src: "images/credits.png", id: "credits" },
+        { src: "images/paddle.png", id: "cpu" },
+        { src: "images/paddle.png", id: "player" },
+        { src: "images/ball.png", id: "ball" },
+        { src: "images/win.png", id: "win" },
+        { src: "images/lose.png", id: "lose" },
+
+        { src: "audios/playerScore.mp3|audios/playerScore.ogg", id: "playerScore" },
+        { src: "audios/enemyScore.mp3|audios/enemyScore.ogg", id: "enemyScore" },
+        { src: "audios/hit.mp3|audios/hit.ogg", id: "hit" },
+        { src: "audios/wall.mp3|audios/wall.ogg", id: "wall" }
     ];
     preloader = new PreloadJS();
     preloader.installPlugin(SoundJS);
