@@ -87,9 +87,6 @@ function Main() {
         { src: "hit.mp3|hit.ogg", id: "hit" },
         { src: "wall.mp3|wall.ogg", id: "wall" }
     ];
-
-
-
     preloader = new PreloadJS();
     preloader.installPlugin(SoundJS);
     preloader.onProgress = handleProgress;
@@ -136,7 +133,6 @@ function handleLoadComplete(event) {
         addTitleView();
     }
 }
-
 
 // Add Title View Function
 
@@ -241,8 +237,6 @@ function movePaddle(e) {
     // Mouse Movement
     player.y = e.stageY;
 }
-
-
 
 /* Reset */
 
